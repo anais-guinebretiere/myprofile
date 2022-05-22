@@ -1,0 +1,121 @@
+/* Colors and fonts */
+
+body { 
+	background-image: url(images/background2.jpeg);
+	margin:  0;
+	background-size: 100% auto;
+	background-attachment: fixed;
+	color:  black;
+	font-family: Athelas, monospace;
+	font-size: 18px;
+	text-align:  justify;
+	text-decoration: none;
+}
+
+	 h2, h3, h4 { 
+	 	 	 	color:  darkblue;
+	 	font-family: "Athelas", sans-serif;
+	 	font-weight:  bold;
+	 	letter-spacing:  0px;
+	 	font-size:  30px;
+	 }
+	
+
+	 h1 { 
+	 	color:  darkblue;
+	 	font-family: Satisfy;
+	 	font-weight:  normal;
+	 	letter-spacing:  1px;
+	 	font-size:  30px;
+	 	
+	 }
+
+	 a { 
+	 text-decoration:  none;
+	 color:  grey;
+	 font-size: 30px;
+	  }
+
+	 a:hover {
+	 	color:  rgb(118, 198, 173);
+	 }
+
+	 /*customee design with class */
+
+	 .container { 
+	 	width:  700px;
+	 	margin:  40px auto;
+	  }
+
+	  .card-white { 
+	  	background-color: rgba(211, 211, 211, 0.80);
+	  	padding:  40px;
+	  	box-shadow:  0px 10px 30px rgba(0,0,0,0.1);
+	  	border-radius:  4px;
+	  	margin:  20px 0px;
+	  	text-align:  center;
+	  }
+
+	  .img-circle { 
+	  	border-radius:  50%;
+	  }
+
+	 .btn-blue { 
+	 	background-color: #6B72E1;
+	 	color:  white;
+	 	padding:  15px 20px;
+	 	border-radius:  4px;
+	 }
+
+	 .btn-blue:hover { 
+	 	baxkground-color:  black;
+	 	color:  black;
+	  }
+
+	  .list-inline { 
+	  	list-style: none;
+	  	padding-left: 0px;
+	  }
+
+	  .list-inline li{ 
+	  	display:  inline;
+	  	padding:  10px;
+	  }
+
+	  .list-inline i{ 
+	  	font-size:  50px;
+	  	color:  white;
+	  }
+
+	  .list-inline i:hover { 
+	  	color:  rgb(118, 198, 173);
+	  }
+
+	  #introduction p { 
+	  	margin-bottom:  40px;
+      }
+
+      @media (max-width:  760px) { 
+      	.container { 
+      		width:  600px;
+      	}
+      }
+
+      @media (max-width:  500px) { 
+      	.container { 
+      		width:  400px;
+      	}
+      }
+
+
+
+
+
+
+	
+
+
+
+
+
+
